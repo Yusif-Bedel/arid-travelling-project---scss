@@ -1,0 +1,12 @@
+@import "./layout/header.scss";
+@import "./pages/homes.scss";
+@import "./layout/footer.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+}
+

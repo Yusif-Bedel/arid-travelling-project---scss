@@ -1,0 +1,277 @@
+.section1 {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px; }
+  .section1 span {
+    color: orangered;
+    font-weight: bold; }
+  .section1__cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    width: 100%; }
+    .section1__cards-card {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+      width: 300px;
+      overflow: hidden; }
+      .section1__cards-card h4 a {
+        color: black;
+        font-weight: lighter;
+        font-size: 22px; }
+      .section1__cards-card a {
+        color: black;
+        font-weight: bold; }
+    .section1__cards-imagediv {
+      position: relative;
+      cursor: pointer;
+      transition: 0.4s ease;
+      overflow: hidden; }
+      .section1__cards-imagediv img {
+        width: 300px; }
+      .section1__cards-imagediv span {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: white;
+        background: green;
+        padding: 10px;
+        border-radius: 30px; }
+    .section1__cards-imagediv:hover {
+      scale: 0.9; }
+    .section1__cards-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; }
+      .section1__cards-icons i {
+        color: orangered; }
+      .section1__cards-icons span {
+        color: orangered;
+        font-weight: bold;
+        font-size: 20px; }
+
+.section2 {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: #FFF4E2; }
+  .section2 span {
+    font-weight: bold;
+    color: orangered;
+    font-size: 20px; }
+  .section2 h2 {
+    font-size: 40px;
+    font-weight: 400; }
+  .section2__cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px; }
+    .section2__cards-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer; }
+      .section2__cards-card p {
+        font-size: 20px; }
+      .section2__cards-card img {
+        background: white;
+        padding: 20px; }
+  .section2 button {
+    color: white;
+    background: orangered;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: normal;
+    cursor: pointer; }
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 50px;
+  background: #FFF4E2; }
+  .section3 span {
+    color: orangered;
+    font-weight: bold; }
+  .section3 h2 {
+    font-size: 40px;
+    font-weight: 400; }
+  .section3__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center; }
+    .section3__cards-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer; }
+      .section3__cards-card h5 {
+        font-size: 20px; }
+      .section3__cards-card p {
+        font-weight: 400;
+        width: 300px; }
+
+.section4 {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/backgrounds/video-banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .section4 h2 {
+    color: white;
+    font-size: 48px; }
+  .section4 p {
+    color: white;
+    font-size: 20px; }
+  .section4__play {
+    background: red;
+    padding: 15px;
+    border-radius: 50%; }
+    .section4__play i {
+      padding: 10px 10px 10px 13px;
+      border-radius: 50%;
+      background: white;
+      color: red; }
+
+.section5 {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.section6 {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; }
+  .section6 span {
+    color: orangered;
+    font-weight: bold; }
+  .section6 h2 {
+    font-size: 48px; }
+  .section6__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px; }
+    .section6__cards-card {
+      position: relative; }
+    .section6__cards-text {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 10px;
+      bottom: 30px;
+      left: 30px; }
+      .section6__cards-text p {
+        color: white; }
+        .section6__cards-text p i {
+          color: yellow; }
+      .section6__cards-text h3 {
+        color: white; }
+      .section6__cards-text span {
+        color: white; }
+
+.section7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 100px 50px;
+  overflow: hidden; }
+  .section7__container {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px; }
+  .section7__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; }
+  .section7__right p {
+    font-size: 25px;
+    color: gray; }
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 50px; }
+  .section8 span {
+    color: orangered;
+    font-weight: bold; }
+  .section8 h2 {
+    font-size: 48px; }
+  .section8__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; }
+    .section8__cards-card {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 10px;
+      overflow: hidden; }
+      .section8__cards-card img {
+        cursor: pointer;
+        transition: 0.4s ease; }
+        .section8__cards-card img:hover {
+          scale: 1.1; }
+      .section8__cards-card a {
+        color: black; }
+      .section8__cards-card h4 {
+        transition: 0.4s ease; }
+        .section8__cards-card h4:hover {
+          color: orangered; }
+        .section8__cards-card h4 a {
+          color: black; }
+          .section8__cards-card h4 a:hover {
+            color: orangered; }
+      .section8__cards-card p {
+        color: gray; }
+    .section8__cards-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      color: gray; }
+
+.section9 {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; }
+  .section9 img {
+    width: 200px;
+    cursor: pointer; }
+    .section9 img:hover {
+      opacity: 0.9;
+      scale: 1.1; }

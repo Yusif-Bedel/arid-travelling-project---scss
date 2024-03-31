@@ -1,0 +1,104 @@
+header{
+    background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp);
+    background-position: center;
+    background-size: cover;
+    nav{
+        padding: 30px 50px 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom:1px solid gray ;
+        background: #00000042;
+        .book{
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 15px 20px;
+            background: orangered;
+            color: white;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            img{
+                cursor: pointer;
+            }
+            a{
+                color: white;
+            }
+        }
+        .nav__div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            a{
+                color: white;
+            }
+            .fa-user{
+                padding: 21px;
+                background: orangered;
+                border-radius: 50%;
+                color: white;
+            }
+        }
+    }
+    .header__section{
+        padding: 100px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+                background: #00000042;
+        h1{
+            font-size: 80px;
+            color: transparent;
+            font-family: serif;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: white;
+            text-shadow: hsla(0, 0%, 100%, 0.6) -2px 2px 30px;
+        }
+        p{
+            font-size: 25px;
+            color: white;
+            width: 50%;
+        }
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                border: 1px solid orangered;
+                svg{
+                    color: orangered;
+                }
+                p{
+                    color: orangered;
+                    width: 300px;
+                }
+                i{
+                    color: gray;
+                }
+            }
+            a{
+                button{
+                    padding: 20px;
+                    border: none;
+                    background: orangered;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

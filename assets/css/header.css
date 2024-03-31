@@ -1,0 +1,84 @@
+header {
+  background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp);
+  background-position: center;
+  background-size: cover; }
+  header nav {
+    padding: 30px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background: #00000042; }
+    header nav .book {
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 15px 20px;
+      background: orangered;
+      color: white; }
+    header nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px; }
+      header nav ul img {
+        cursor: pointer; }
+      header nav ul a {
+        color: white; }
+    header nav .nav__div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px; }
+      header nav .nav__div a {
+        color: white; }
+      header nav .nav__div .fa-user {
+        padding: 21px;
+        background: orangered;
+        border-radius: 50%;
+        color: white; }
+  header .header__section {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    background: #00000042; }
+    header .header__section h1 {
+      font-size: 80px;
+      color: transparent;
+      font-family: serif;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+      text-shadow: rgba(255, 255, 255, 0.6) -2px 2px 30px; }
+    header .header__section p {
+      font-size: 25px;
+      color: white;
+      width: 50%; }
+    header .header__section div {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px; }
+      header .header__section div a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid orangered; }
+        header .header__section div a svg {
+          color: orangered; }
+        header .header__section div a p {
+          color: orangered;
+          width: 300px; }
+        header .header__section div a i {
+          color: gray; }
+      header .header__section div a button {
+        padding: 20px;
+        border: none;
+        background: orangered;
+        color: white;
+        cursor: pointer; }
